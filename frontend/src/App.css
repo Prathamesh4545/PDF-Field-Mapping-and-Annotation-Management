@@ -1,0 +1,211 @@
+.app-nav {
+  background: #f8f9fa;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  gap: 10px;
+}
+
+.app-nav button {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.app-nav button.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pdf-mapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.file-input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.upload-text {
+  color: #666;
+  font-size: 14px;
+}
+
+.config-inputs {
+  margin: 10px 0;
+  display: flex;
+  gap: 15px;
+}
+
+.config-inputs label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.config-inputs input {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80px;
+}
+
+.executive-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.fetch-controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: end;
+}
+
+.fetch-controls label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.fetch-controls input {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80px;
+}
+
+.fetch-controls button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mappings-list {
+  margin-bottom: 20px;
+}
+
+.mapping-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.mapping-item:hover {
+  background-color: #f5f5f5;
+}
+
+.mapping-item.selected {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+}
+
+.field-details {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.bbox-info {
+  font-size: 11px;
+  color: #888;
+  font-family: monospace;
+}
+
+.selected-field-details {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+.selected-field-details pre {
+  font-size: 12px;
+  margin: 10px 0 0 0;
+}
+
+.pdf-container {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #ccc;
+  margin: 20px 0;
+}
+
+.pdf-canvas {
+  border: 1px solid #000;
+}
+
+.overlay-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: crosshair;
+}
+
+.controls {
+  margin: 10px 0;
+}
+
+.controls button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.controls button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.controls button:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.save-button {
+  background: #28a745 !important;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.save-button:hover {
+  background: #218838 !important;
+}
+
+.fields-preview {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.fields-preview pre {
+  margin: 0;
+  font-size: 12px;
+}
