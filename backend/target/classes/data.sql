@@ -1,0 +1,2 @@
+-- Sample data for testing (optional)
+-- This file will be executed on application startup if spring.jpa.hibernate.ddl-auto=create or create-drop
